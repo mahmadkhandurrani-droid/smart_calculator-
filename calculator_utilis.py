@@ -1,0 +1,23 @@
+# calculator_utils.py
+"""
+Smart Calculator Utility Functions
+Provides basic arithmetic operations: add, subtract, multiply, divide.
+"""
+
+def add(a, b):
+    """Return sum of a and b"""
+    return a + b
+
+def subtract(a, b):
+    """Return difference of a and b"""
+    return a - b
+
+def multiply(a, b):
+    """Return product of a and b"""
+    return a * b
+
+def divide(a, b):
+    """Return division of a by b, handles division by zero"""
+    if b == 0:
+        return "Error: Division by zero!"
+    return a / b
